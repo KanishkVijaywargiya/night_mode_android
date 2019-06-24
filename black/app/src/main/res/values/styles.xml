@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--Light/Day mode theme-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorNightBlue</item>
+        <item name="colorPrimaryDark">@color/colorNightDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundcolor">@color/colorBackground</item>
+        <item name="cardbackground">@color/colorCardBack</item>
+        <item name="textcolor">@color/colorText</item>
+        <item name="tintcolor">@color/colorTint</item>
+        <item name="buttoncolor">@color/colorButton</item>
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+    </style>
+
+    <!--Dark/Night mode theme-->
+    <style name="darktheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/dayBlack</item>
+        <item name="colorPrimaryDark">@color/dayOne</item>
+        <item name="colorAccent">@color/dayTwo</item>
+        <item name="backgroundcolor">@color/dayThree</item>
+        <item name="cardbackground">@color/dayFour</item>
+        <item name="textcolor">@color/dayFive</item>
+        <item name="tintcolor">@color/daySix</item>
+        <item name="buttoncolor">@color/daySeven</item>
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+    </style>
+
+    <!--Animation effect during transition between themes-->
+    <style name="windowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+</resources>

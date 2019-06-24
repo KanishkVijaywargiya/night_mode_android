@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--light/day mode colors-->
+    <color name="colorNightBlue">#2196F3</color>
+    <color name="colorNightDark">#1976D2</color>
+    <color name="colorBackground">#fcfcfc</color>
+    <color name="colorCardBack">#ffffff</color>
+    <color name="colorText">#808080</color>
+    <color name="colorTint">#000000</color>
+    <color name="colorButton">#2196F3</color>
+
+    <!--dark/night mode colors-->
+    <color name="dayBlack">#212121</color>
+    <color name="dayOne">#000000</color>
+    <color name="dayTwo">#D81B60</color>
+    <color name="dayThree">#303030</color>
+    <color name="dayFour">#424242</color>
+    <color name="dayFive">#ffffff</color>
+    <color name="daySix">#ffffff</color>
+    <color name="daySeven">#2196F3</color>
+</resources>
